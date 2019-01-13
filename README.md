@@ -6,18 +6,6 @@
 3. 内存 阿斯加特洛极系列 DDR4 2400 16G
 4. 固态硬盘 760P M.2 Nvme 256G
 
-## EFI只适用于10.14.2 其他版本未做尝试
-### 已知实现功能
-1. 声卡
-2. 网卡
-3. CPU变频
-4. 休眠
-5. DP输出口（可4K）
-
-### 已知问题 
-1. USB3.0无法驱动硬盘
-2. 未接入无线网卡（暂无需求）
-
 
 ## BIOS设置
 1. 硬盘模式调整为 AHCI
@@ -35,7 +23,7 @@
 [【黑果小兵】macOS Mojave 10.14.2 18C54 正式版 with Clover 4792原版镜像
 ](https://blog.daliansky.net/macOS-Mojave-10.14.2-18C54-official-version-with-Clover-4792-original-image.html)
 
-## 参考
+## 参考文案
 [黑苹果B360M I3 8100 EFI](https://blog.csdn.net/flyhorstar/article/details/85242675)
 
 [【黑果小兵】macOS Mojave 10.14.2 18C54 正式版 with Clover 4792原版镜像
