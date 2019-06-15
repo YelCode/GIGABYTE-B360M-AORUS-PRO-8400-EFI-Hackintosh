@@ -45,15 +45,16 @@
 ##### 已知问题
 无
 
-## BIOS设置
-1. 硬盘模式调整为 AHCI
-2. 开启支持 UEFI 启动，一般默认是开启的
-3. 关闭VT-d，安完完系统后，再开启
+## BIOS设置篇(F3版本)
+1. Peripherals->SATA AND RST->SATA Mode selection-> AHCI
+2. 开启支持 UEFI 启动，一般默认是开启的 BIOS->Storage boot BIOS->other PCI devices
+3. 关闭VT-d，安完完系统后，再开启 Chipset->VT-d
 4. 关闭CFG-Lock（我的BIOS没有此选项）
-5. 关闭Secure Boot Mode
-6. OS Type选项，设置为 Other OS
-7. 关闭IO SerialPort
-8. 设置 XHCI Handoff 为 开启
+5. 关闭Secure Boot Mode 网传 Bios->CSM Support disable就能看到选项 Bios->Secure Boot->Secure Boot Enable-> disabled
+6. BIOS->Windoews 8/10 Features 设置为 Other OS
+7. 关闭IO SerialPort Peripherals->Super IO Configuration-> Serial Port
+8. 设置 XHCI Handoff 为 开启 Peripherals->USB Configuration->XHCI Hand-off
+9. 关闭 Chipset->IOAPIC 24-119
 
 > 部分EFI为以下博文下载收集而来，经过本人电脑实践可行
 
