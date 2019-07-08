@@ -45,16 +45,25 @@
 ##### 已知问题
 无
 
-## BIOS设置篇(F3版本)
-1. Peripherals->SATA AND RST->SATA Mode selection-> AHCI
-2. 开启支持 UEFI 启动，一般默认是开启的 BIOS->Storage boot BIOS->other PCI devices
-3. 关闭VT-d，安完完系统后，再开启 Chipset->VT-d
-4. 关闭CFG-Lock（我的BIOS没有此选项）
-5. 关闭Secure Boot Mode 网传 Bios->CSM Support disable就能看到选项 Bios->Secure Boot->Secure Boot Enable-> disabled
-6. BIOS->Windoews 8/10 Features 设置为 Other OS
-7. 关闭IO SerialPort Peripherals->Super IO Configuration-> Serial Port
-8. 设置 XHCI Handoff 为 开启 Peripherals->USB Configuration->XHCI Hand-off
+## BIOS设置篇(F1，F3皆可)
+> 题外话，我刷的F3 突然有一天不能启动黑苹果了 自动退回F1了 后面重新设置BIOS
+
+##### bios
+2. BIOS->Storage boot BIOS->other PCI devices->UEFI（开启支持 UEFI 启动，一般默认是开启的 ）
+5. BIOS->CSM Support disable
+6. BIOS->Secure Boot->Secure Boot Enable-> disabled（上一步设置后才有这个选项）
+6. BIOS->Windoews 8/10 Features ->Other OS（设置启动系统类型）
+
+
+##### Chipset
+3. Chipset->VT-d（关闭VT-d，安完完系统后，再开启）
 9. 关闭 Chipset->IOAPIC 24-119
+
+##### Peripherals
+1. Peripherals->SATA AND RST->SATA Mode selection-> AHCI
+7. Peripherals->Super IO Configuration-> Serial Port（关闭IO SerialPort ）
+8. Peripherals->USB Configuration->XHCI Hand-off（设置 XHCI Handoff 为 开启 ）
+4. 关闭CFG-Lock（我的BIOS没有此选项）
 
 > 部分EFI为以下博文下载收集而来，经过本人电脑实践可行
 
