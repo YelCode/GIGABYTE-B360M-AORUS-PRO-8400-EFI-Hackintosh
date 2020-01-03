@@ -1,19 +1,16 @@
 # B360M-AORUS-PRO-8400-EFI
 
+## 提示
+> 目前macOS 截止10.15.2 都不稳定 仍有蛮多问题的，所以暂不跟进。并且xcode对系统的要求是10.14.4或更高版本，追求稳定才是我的目标。
+
 ## 黑苹果硬件配置
 1. CPU i5 8400
 2. 主板 B360 M AORUS PRO 小雕
-3. 内存 阿斯加特洛极系列 DDR4 2400 16G
+3. 内存 阿斯加特洛极系列 DDR4 2400 16G*2
 4. 固态硬盘 760P M.2 Nvme 256G
 5. 机箱 先马米立方（10.14.5修复usb，包括机箱三个前置）
 
 > 要对应版本选择 覆盖EFI磁盘的EFI文件夹 版本错误可能会导致无法启动系统
-
-## EFI下载
-
-[CSDN积分下载-10.14.2](https://download.csdn.net/download/q670051552/10888077)
-
-[Github下载，可以star一下或者一起维护](https://github.com/StarYellow/GIGABYTE-B360M-AORUS-PRO-8400-EFI-Hackintosh)
 
 ### 实现功能
 1. 声卡
@@ -66,6 +63,12 @@
 -  关闭CFG-Lock（我的BIOS没有此选项）
 
 > 部分EFI为以下博文下载收集而来，经过本人电脑实践可行
+
+## EFI下载
+
+[CSDN积分下载-10.14.2](https://download.csdn.net/download/q670051552/10888077)
+
+[Github下载，可以star一下或者一起维护](https://github.com/StarYellow/GIGABYTE-B360M-AORUS-PRO-8400-EFI-Hackintosh)
 
 ## 参考博文和安装方法
 [黑苹果B360M I3 8100 EFI](https://blog.csdn.net/flyhorstar/article/details/85242675)
