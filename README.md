@@ -40,7 +40,8 @@
 2. HDMI视频无视频输出
 
 ## 给作者一个赞赏
-![微信二维码](https://github.com/YelCode/GIGABYTE-B360M-AORUS-PRO-8400-EFI-Hackintosh/blob/master/res/WechatIMG153.jpeg)
+
+<img src="https://github.com/YelCode/GIGABYTE-B360M-AORUS-PRO-8400-EFI-Hackintosh/blob/master/res/WechatIMG153.jpeg" width="300" alt="微信二维码">
 
 ## BIOS设置篇(F1，F3皆可)
 > 题外话，我刷的F3 突然有一天不能启动黑苹果了 自动退回F1了 后面重新设置BIOS
